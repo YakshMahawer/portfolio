@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.audioDiv{
+  opacity: 0;
+}
+
+.explosives, #myVideo {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+.confirmMainDiv{
+  background-color: #010101;
+  box-shadow: 0 0 39px 37px #000000;
+}
+
+.aacceptMissionButton{
+  display: none;
+  opacity: 0;
+}
+
+.acceptButton{
+  background: url(acc.png) !important;
+}
+
+
+.smoke1, .smoke2, .smoke3, .smoke4, .dusty1, .dusty2, .dusty3, .dusty4{
+  z-index: 1;
+}
+.smoke1{
+  bottom: -85px;
+}
+.smoke2{
+  left: -503px;
+  top: -166px;
+  transform: rotate(90deg);
+}
+
+.smoke3{
+  right: -503px;
+  top: -199px;
+  transform: rotate(-90deg);
+}
+
+.smoke4{
+  top: -87px;
+  transform: rotate(180deg);
+}
+
+.myBlast{
+  display: none;
+}
+
+.explosives{
+  z-index: 3;
+  display: none;
+}
+
+.all_the_best{
+  text-align: center;
+  font-size: 42px;
+}
+
+.destroyed{
+  text-align: center;
+  font-size: 34px;
+}
+
+.all_the_best, .destroyed, .count_down{
+  font-family: 'VT323', monospace;
+  color: whitesmoke;
+}
+
+.count_down{
+  font-size: 115px;
+  font-family: 'Ubuntu', 'san serif';
+  color: whitesmoke;
+  position: relative;
+  left: 50%;
+  transform: translateX(-10%);
+  margin-top: 42px;
+}
+
+.allbestDiv{
+  min-height: 350px;
+}
+
+
+.information{
+  width: 100%;
+  background-color: #fdf308;
+  position: fixed;
+  top: 0px;
+  text-align: center;
+  padding: 0.5% 0.6%;
+  font-size: 24px;
+  color: black;
+  z-index: 2;
+  font-family: 'Ubuntu';
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.information > span{
+  color: rgb(0, 128, 255);
+}

@@ -1,0 +1,67 @@
+.education_div{
+    color: whitesmoke;
+    display: flex;
+    font-size: 18px;
+    font-family: "sans serif", "Ubuntu";
+    margin-top: 1%;
+}
+
+.education_div > div{
+    margin-left: 2%;
+}
+
+.eprogress{
+    width: 2%;
+    text-align: center;
+}
+.ebar{
+    left: 47%;
+    /* text-align: center; */
+    height: 175px;
+    background-color: whitesmoke;
+    width: 12%;
+    position: relative;
+    margin: 22% 0%;
+    animation: grow 0.8s;
+}
+
+.ename{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.pyear{
+    height: 47%
+}
+
+.dyear{
+    height: 47.5%;
+}
+
+.parul{
+    height: 46%;
+}
+
+.donbosco{
+    height: 46.5%;
+}
+
+.eyear{
+    text-align: right;
+}
+
+.esub{
+    margin-bottom: 1.5%;
+}
+
+.highl{
+    color: #0900ff;
+    font-weight: 600;
+}
+
+@keyframes grow {
+    from{
+        height: 0px;
+    }
+}

@@ -1,0 +1,174 @@
+.yellow{
+    color: gold !important;
+}
+
+.rating{
+    color: whitesmoke;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Ubuntu";
+}
+
+.rate_me_text{
+    margin-bottom: 4%;
+}
+
+.rating > button{
+    color: whitesmoke;
+    background-color: transparent;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    margin-right: 2%;
+}
+
+.rated_star{
+    color: gold;
+}
+
+.after_stars{
+    display: flex;
+}
+
+.contact_div{
+    display: flex;
+    width: 100%;
+}
+
+.direct_contact, .indirect_contact{
+    width: 50%;
+}
+
+.gaayab{
+    display: none !important;
+}
+
+a{
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.done{
+    background-color: rgb(247, 231, 5);
+    padding: 0.5% 2%;
+    color: rgb(8, 8, 8);
+    font-size: 22px;
+    font-weight: 600;
+    border: none;
+    font-family: "Ubuntu";
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+.done:disabled{
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+.saved{
+    font-size: 24px;
+    color: greenyellow;
+    margin-top: 2%;
+    font-weight: 400;
+}
+
+.got_stars{
+    font-size: 30px;
+    margin-right: 2%;
+}
+
+.rated{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 26px;
+    font-family: "Ubuntu";
+}
+
+.after_stars{
+    left: 42%;
+    position: relative;
+    margin-bottom: 2%;
+}
+
+.rating_div{
+    margin-top: 6%;
+}
+
+.sendMeMail{
+    color: whitesmoke;
+    font-family: "Ubuntu";
+    margin-top: 4%;
+    font-size: 18px;
+    position: relative;
+    left: 25%;
+}
+
+.anysug{
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 2%;
+}
+
+form > div > label{
+    display: block;
+    width: 2%;
+    margin-top: 8px;
+}
+
+input, textarea{
+    color: black;
+    width: 50%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    padding: 4px 8px;
+    font-weight: bold;
+    border: none;
+}
+
+.send{
+    background-color: yellowgreen;
+    color: #000;
+    cursor: pointer;
+}
+
+.message_sent{
+    font-family: "Ubuntu";
+    color: lawngreen;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: -3%;
+    text-transform: uppercase;
+}
+
+.indirect_contact, a{
+    color: aliceblue;
+    font-family: "Ubuntu";
+    font-size: 20px;
+    margin-top: 4%;
+}
+
+.indirect_contact > div{
+    margin-top: 5%;
+}
+
+.chead{
+    margin-bottom: 1.5%;
+}
+
+.fa-linkedin{
+    color: rgb(84 154 253);
+}
+
+.fa-github{
+    color: rgb(255, 0, 0);
+}
+
+.fa-envelope{
+    color: burlywood;
+}
+
+.chead> .fa-phone{
+    color: rgb(15, 218, 15);
+}

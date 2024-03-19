@@ -1,0 +1,62 @@
+.imfLogoImage{
+    height: 200px;
+    transform: rotateY(150deg);
+    margin: -66px 40px 5px 74px;
+}
+
+.impossible{
+    width: 160px;
+}
+
+.mission{
+    width: 116px;
+}
+
+.force{
+    width: 76px;
+}
+.impossible, .mission, .force{
+    color: aliceblue;
+    font-family: 'Sono', sans-serif;
+    overflow: hidden;
+    font-size: 24px;
+}
+
+.impossibleText{
+    margin-left: 160px;
+}
+
+.missionText{
+    margin-left: 116px;
+}
+
+.forceText{
+    margin-left: 76px;
+}
+
+.imfTextDiv{
+    display: flex;
+}
+
+.missionContent{
+    color: whitesmoke;
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+}
+
+.welcomeMainDiv{
+    padding-top: 70px;
+    max-height: 220px;
+    overflow: hidden;
+}
+
+.hello{
+    text-align: center;
+    font-size: 42px;
+}
+
+.welcomeContent{
+    position: relative;
+    left: 50%;
+    transform: translateX(-19%);
+}

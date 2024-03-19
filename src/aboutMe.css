@@ -1,0 +1,77 @@
+.about_me{
+    display: flex;
+    font-family: "sans-serif", "Ubuntu";
+    color: whitesmoke;
+}
+
+.my_image{
+    width: 40%;
+    height: 100%;
+}
+
+.description{
+    width: 60%;
+    height: 100%;
+    padding-top: 3%;
+}
+
+.my_image > img{
+    height: 250px;
+}
+
+.hi{
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 2%;
+}
+
+.desc, .slide_for_more, .thanks_for_coming{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 3.5%;
+}
+
+#prog, #crea, #frame, #tech{
+    color: white;
+  text-shadow:
+      0 0 7px #e203fb,
+      0 0 10px #f806c7,
+      0 0 21px #fb01e6,
+      0 0 42px rgb(128, 0, 255),
+      0 0 82px rgb(153, 0, 255),
+      0 0 92px rgb(106, 0, 255),
+      0 0 102px rgb(140, 0, 255),
+      0 0 151px rgb(128, 0, 255);
+}
+
+.my_image > div > i{
+    color: gold;
+    width: 7%;
+}
+
+
+.my_image{
+    font-size: 22px;
+    font-family: 'Philosopher', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding-top: 3%;
+}
+
+.my_image > div{
+    margin-bottom: 0.5%;
+}
+
+.my_image >img{
+    position: relative;
+    transform: translate(-50%, 15%);
+    left: 50%;
+    margin-bottom: 3%;
+    background-color: mediumpurple;
+    border-radius: 50%;
+    padding-top: 1.5%;
+}
+
+.my_image > div{
+    text-align: center;
+}

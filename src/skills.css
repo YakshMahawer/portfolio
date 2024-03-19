@@ -1,0 +1,150 @@
+.skills_div{
+    display: flex;
+    color: aliceblue;
+    font-family: "sans serif", "Ubuntu";
+    margin-top: -1%;
+    width: 100%;
+}
+
+.skills_div > div:first-child{
+    margin-right: 5%;
+}
+
+.languages_i_know{
+    width: 64%;
+}
+
+.other_skills{
+}
+
+.first_half{
+    width: 45%;
+    margin-right: 4%;
+}
+
+.second_half{
+    width: 45%;
+}
+
+.progress {
+    padding: 3px;
+    background: rgb(0 0 0);
+    border-radius: 6px;
+    margin-bottom: 5%;
+  }
+  
+  .progress-bar {
+    height: 5px;
+    border-radius: 4px;
+    animation: prog 1.5s;
+      background-image: -webkit-linear-gradient(top, rgb(0, 0, 0), rgba(0, 0, 0, 0.989));
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.977));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  /*
+   * Note: using adjacent or general sibling selectors combined with
+   *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+   *       See this article for more info and a potential fix:
+   *       https://css-tricks.com/webkit-sibling-bug/
+   */
+  
+  
+.basic{
+    width: 33%;
+    background-color: orangered;
+  }
+  
+.intermediate{
+    width: 66%;
+    background-color: #f2d31b;
+  }
+  
+.expert{
+    width: 99%;
+    background-color: #86e01e;
+  }
+
+
+.guide{
+    position: relative;
+    margin-top: 0.5%;
+}
+
+.guide_items{
+    position: absolute;
+    height: 4px !important;
+}
+
+.guide_items:first-child{
+    z-index: 3;
+}
+
+.guide_items:nth-child(2){
+    z-index: 2;
+}
+
+.guide_items:last-child{
+    z-index: 0;
+}
+
+.gtext{
+    color: white;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+
+.gtext:first-child{
+   margin-left: 32%;
+}
+
+.gtext:nth-child(2){
+    margin-left: 26%;
+}
+
+.gtext:last-child{
+    margin-left: 24%;
+}
+
+.shead{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    margin-top: 14%;
+}
+
+.languages_i_know_head, .tools_head{
+    margin-top: 0% !important;
+}
+
+
+.sname, .lang_name{
+    font-size: 18px;
+    margin-bottom: 2%;
+}
+
+.languages{
+    display: flex;
+    width: 100%;
+}
+
+@keyframes prog {
+    from{
+        width: 0%;
+    }
+}
+
+  
